@@ -1,6 +1,5 @@
 #content {
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
+    border-radius: 5px;
 }
 
 aside {
@@ -19,7 +18,9 @@ aside {
 	background: linear-gradient(to right, #000000 0%, #501113 50%, #000000 98%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1);
 }
-
+div.basketedit_summary_container div, #basketedit_gifts {
+    border-radius: 5px;
+}
 body {
 	background: #000;
 	font-family: 'Open sans', Arial, sans-serif;
