@@ -18,10 +18,5 @@ div.main_page, footer{
 div.main_page header{position: relative!important;}
 
 /*linki menu*/
-
-header .nav-link {
-    color:#fff!important;
-    &:hover {
-			color: #ff0000!important;
-	}
-}
+.navbar-nav > .nav-item > .nav-link{color:#ffffff!important;}
+.navbar-nav > .nav-item > .nav-link:hover{color:#ff0000!important;}
