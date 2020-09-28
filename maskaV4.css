@@ -28,3 +28,5 @@ header a, header span {color: #eeeeee!important;}
 /*wyszukiwarka tekstowa*/
 #menu_search_text {color:#ccc!important; border-color: #ccc!important;}
 #menu_search_text:focus {color:#fff!important; border-color: #fff!important;}
+i.icon-search{color:white!important} /*lupka*/
+i.icon-search:hover{color:red!important}
