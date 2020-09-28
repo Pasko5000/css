@@ -20,3 +20,7 @@ div.main_page header{position: relative!important;}
 /*linki menu*/
 .navbar-nav > .nav-item > .nav-link{color:#ffffff!important;}
 .navbar-nav > .nav-item > .nav-link:hover{color:#ff0000!important;}
+
+/*Menu górne koszyk ustawienia itp*/
+header a, header span {color: #eeeeee!important;}
+#menu_basket a {color: #eeeeee!important;}
