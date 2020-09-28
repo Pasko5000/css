@@ -1,0 +1,16 @@
+/*tło strony */
+body {background: #000}
+div.main_page, footer {
+	margin: 0 auto;
+	text-align: left;
+	background: #000000;
+	background: -moz-linear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, #000000), color-stop(50%, #501113), color-stop(98%, #000000));
+	background: -webkit-linear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
+	background: -o-linear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
+	background: -ms-linear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
+	background: linear-gradient(to right, #000000 0%, #501113 50%, #000000 98%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1);
+}
+/*Bannery na dół - pod menu i logo */
+div.main_page header{position: relative!important;}
