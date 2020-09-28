@@ -24,3 +24,7 @@ div.main_page header{position: relative!important;}
 /*Menu górne koszyk ustawienia itp*/
 header a, header span {color: #eeeeee!important;}
 #menu_basket a {color: #eeeeee!important;}
+
+/*wyszukiwarka tekstowa*/
+#menu_search_text {color:#ccc!important; border-color: #ccc!important;}
+#menu_search_text:focus {color:#fff!important; border-color: #fff!important;}
