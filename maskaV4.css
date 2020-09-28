@@ -1,6 +1,6 @@
 /*tło strony */
-body {background: #000}
-div.main_page, footer {
+body{background: #000}
+div.main_page, footer{
 	margin: 0 auto;
 	text-align: left;
 	background: #000000;
@@ -12,5 +12,16 @@ div.main_page, footer {
 	background: linear-gradient(to right, #000000 0%, #501113 50%, #000000 98%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1);
 }
+#main_banner1{background:transparent;}
+
 /*Bannery na dół - pod menu i logo */
 div.main_page header{position: relative!important;}
+
+/*linki menu*/
+
+header .nav-link {
+    color:#fff!important;
+    &:hover {
+			color: #ff0000!important;
+	}
+}
