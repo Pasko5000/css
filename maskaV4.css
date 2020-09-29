@@ -30,3 +30,20 @@ header a, header span {color: #eeeeee!important;}
 #menu_search_text:focus {color:#fff!important; border-color: #fff!important;}
 i.icon-search{color:white!important} /*lupka*/
 i.icon-search:hover{color:red!important}
+#menu_basket > a:before{color:#fff;} /*ikona koszyk*/
+
+.hotspot .headline{color: #fff!important;}
+.hotspot .headline::after{background:#fff!important;}
+
+div.products.d-flex.flex-wrap{
+    background: #fff;
+    border-radius: 20px;
+    border-color: transparent;
+}
+div section.article{
+    background: #fff;
+    border-radius: 20px;
+    border-color: transparent;
+    padding: 20px;
+    width: 100%;
+}
