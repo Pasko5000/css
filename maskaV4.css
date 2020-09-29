@@ -48,10 +48,15 @@ div section.article{
     padding: 20px;
     width: 100%;
 }
+/*Produkty*/
+.product__name{font-size:1.5rem!important;}
 
 /*stopka */
+footer{max-width: 1170px!important;}
+#info-banners > li > *{color:#c00!important;}
 #menu_contact, #menu_contact > *{
     background: transparent!important; 
+	
 }
 #menu_contact > ul > li > a{color:#fff!important;}
 #menu_contact > ul > li{color:#fff!important;}
