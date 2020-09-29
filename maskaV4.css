@@ -52,9 +52,101 @@ div section.article{
 .product__name{font-size:1.5rem!important;}
 .product__yousave{border-color: #f00!important;}
 .product__yousave span {color:#f00}
-.price .--points{color:#c00!important;}
+.price.--points{color:#c00!important;}
+/*stopka */
+footer{max-width: 1170px!important;}/*tło strony */
+body{background: #000}
+a:hover{color:#f00!important}
+div.main_page, footer{
+	margin: 0 auto;
+	text-align: left;
+	background: #000000;
+	background: -moz-linear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, #000000), color-stop(50%, #501113), color-stop(98%, #000000));
+	background: -webkit-linear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
+	background: -o-linear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
+	background: -ms-linear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
+	background: linear-gradient(to right, #000000 0%, #501113 50%, #000000 98%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1);
+}
+#main_banner1{background:transparent;}
+
+/*Bannery na dół - pod menu i logo */
+div.main_page header{
+    @media (min-width: 757px) {
+		position: relative!important;
+	}
+}
+
+/*linki menu*/
+.navbar-nav > .nav-item > .nav-link{color:#ffffff!important;}
+.navbar-nav > .nav-item > .nav-link:hover{color:#ff0000!important;}
+
+/*Menu górne koszyk ustawienia itp*/
+header a, header span {color: #eeeeee!important;}
+#menu_basket a {color: #eeeeee!important;}
+
+/*wyszukiwarka tekstowa*/
+#menu_search_text {color:#ccc!important; border-color: #ccc!important;}
+#menu_search_text:focus {color:#fff!important; border-color: #fff!important;}
+i.icon-search{color:white!important} /*lupka*/
+i.icon-search:hover{color:red!important}
+#menu_basket > a:before{color:#fff;} /*ikona koszyk*/
+
+.hotspot .headline{color: #fff!important;}
+.hotspot .headline::after{background:#fff!important;}
+
+div.products.d-flex.flex-wrap{
+    background: #fff;
+    @media (min-width: 757px){
+        border-radius: 20px;
+    }
+    border-color: transparent;
+}
+div section.article{
+    background: #fff;
+    border-radius: 20px;
+    border-color: transparent;
+    padding: 20px;
+    width: 100%;
+}
+/*Produkty*/
+.product__name{font-size:1.5rem!important;}
+.product__yousave{border-color: #f00!important;}
+.product__yousave span {color:#f00}
+.price.--points{color:#c00!important;}
 /*stopka */
 footer{max-width: 1170px!important;}
+#info-banners > li > *{color:#c00!important;}
+#menu_contact, #menu_contact > *{
+    background: transparent!important; 
+	
+}
+#menu_contact > ul > li > a{color:#fff!important;}
+#menu_contact > ul > li{color:#fff!important;}
+#menu_contact::before{background:transparent}
+
+#menu_orders{
+    background:#fff;
+    border-color: transparent!important;
+    @media (min-width: 757px){
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+}
+#menu_regulations, #menu_account{
+    background:#fff;
+    border-color: transparent!important;
+}
+#links_footer_1{
+    background:#fff;
+    border-color: transparent!important;
+    @media (min-width: 757px){
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+}
 #info-banners > li > *{color:#c00!important;}
 #menu_contact, #menu_contact > *{
     background: transparent!important; 
