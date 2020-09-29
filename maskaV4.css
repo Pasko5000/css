@@ -1,5 +1,6 @@
 /*tło strony */
 body{background: #000}
+a:hover{color:#f00!important}
 div.main_page, footer{
 	margin: 0 auto;
 	text-align: left;
@@ -46,4 +47,29 @@ div section.article{
     border-color: transparent;
     padding: 20px;
     width: 100%;
+}
+
+/*stopka */
+#menu_contact, #menu_contact > *{
+    background: transparent!important; 
+}
+#menu_contact > ul > li > a{color:#fff!important;}
+#menu_contact > ul > li{color:#fff!important;}
+#menu_contact::before{background:transparent}
+
+#menu_orders{
+    background:#fff;
+    border-color: transparent!important;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#menu_regulations, #menu_account{
+    background:#fff;
+    border-color: transparent!important;
+}
+#links_footer_1{
+    background:#fff;
+    border-color: transparent!important;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
