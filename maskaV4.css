@@ -50,7 +50,9 @@ div section.article{
 }
 /*Produkty*/
 .product__name{font-size:1.5rem!important;}
-
+.product__yousave{border-color: #f00!important;}
+.product__yousave span {color:#f00}
+.price .--points{color:#c00!important;}
 /*stopka */
 footer{max-width: 1170px!important;}
 #info-banners > li > *{color:#c00!important;}
