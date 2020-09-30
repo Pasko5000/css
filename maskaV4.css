@@ -7,14 +7,17 @@ div.main_page, footer{
 	background: #000000;
 	background: -moz-linear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
 	background: -webkit-gradient(linear, left top, right top, color-stop(0%, #000000), color-stop(50%, #501113), color-stop(98%, #000000));
-	background: -webkit-linear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
+	background: -webkit-lJR221770XX3573SMinear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
 	background: -o-linear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
 	background: -ms-linear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
 	background: linear-gradient(to right, #000000 0%, #501113 50%, #000000 98%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1);
 }
 #main_banner1{background:transparent;}
-
+/*Kropka czerwona bannery*/
+.slick-dots li.slick-active button {
+	background: #c00;
+}
 /*Bannery na dół - pod menu i logo */
 div.main_page header{position: relative!important;}
 
@@ -23,8 +26,9 @@ div.main_page header{position: relative!important;}
 .navbar-nav > .nav-item > .nav-link:hover{color:#ff0000!important;}
 
 /*Menu górne koszyk ustawienia itp*/
-header a, header span {color: #eeeeee!important;}
+header span {color: #eeeeee!important;}
 #menu_basket a {color: #eeeeee!important;}
+#menu_additional a {color: #eeeeee!important;}
 
 /*wyszukiwarka tekstowa*/
 #menu_search_text {color:#ccc!important; border-color: #ccc!important;}
