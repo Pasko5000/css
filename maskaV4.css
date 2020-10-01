@@ -1,9 +1,12 @@
 /*tło strony */
 body{background: #000}
 a:hover{color:#f00!important}
-div.main_page, footer{
+div.main_page, footer, div.search_page{
 	margin: 0 auto;
 	text-align: left;
+	background: transparent!important;
+}
+body{
 	background: #000000;
 	background: -moz-linear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
 	background: -webkit-gradient(linear, left top, right top, color-stop(0%, #000000), color-stop(50%, #501113), color-stop(98%, #000000));
@@ -13,6 +16,11 @@ div.main_page, footer{
 	background: linear-gradient(to right, #000000 0%, #501113 50%, #000000 98%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1);
 }
+/*strona z listą towarów*/
+div.search_page #content{border-radius: 10px; background:#fff;}
+/*strona karta towaru*/
+div.projector_page #content{border-radius: 10px; background:#fff;padding:10px;}
+div.return_page #content{border-radius: 10px; background:#fff;padding:10px;}
 #main_banner1{background:transparent;}
 /*Kropka czerwona bannery*/
 .slick-dots li.slick-active button {
