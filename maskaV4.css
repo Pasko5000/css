@@ -28,6 +28,8 @@ div.return_page #content{border-radius: 10px; background:#fff;padding:10px;}
 div.product-compare_page #content{border-radius: 10px; background:#fff;padding:10px;}
 /*koszyk*/
 div.basketedit_page #content{border-radius: 10px; background:#fff;padding:20px;}
+.--active .progress__icon{background: #f00!important;}
+
 
 #main_banner1{background:transparent;}
 /*Kropka czerwona bannery*/
