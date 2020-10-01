@@ -16,11 +16,19 @@ body{
 	background: linear-gradient(to right, #000000 0%, #501113 50%, #000000 98%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1);
 }
+div.list_wrapper ol li * {color:#ddd}
+
 /*strona z listą towarów*/
 div.search_page #content{border-radius: 10px; background:#fff;}
 /*strona karta towaru*/
 div.projector_page #content{border-radius: 10px; background:#fff;padding:10px;}
+/*powrót */
 div.return_page #content{border-radius: 10px; background:#fff;padding:10px;}
+/*porównywarka*/
+div.product-compare_page #content{border-radius: 10px; background:#fff;padding:10px;}
+/*koszyk*/
+div.basketedit_page #content{border-radius: 10px; background:#fff;padding:20px;}
+
 #main_banner1{background:transparent;}
 /*Kropka czerwona bannery*/
 .slick-dots li.slick-active button {
