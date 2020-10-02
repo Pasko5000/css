@@ -6,6 +6,9 @@ div.main_page, footer, div.search_page{
 	text-align: left;
 	background: transparent!important;
 }
+/*kolor przycisków : hover*/
+.btn:hover{color:#f00!important;border-bottom-color: #f00!important;}
+
 body{
 	background: #000000;
 	background: -moz-linear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
