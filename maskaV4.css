@@ -1,5 +1,4 @@
 /*tło strony */
-body{background: #000}
 a:hover{color:#f00!important}
 div.main_page, footer, div.search_page{
 	margin: 0 auto;
@@ -33,6 +32,8 @@ div.product-compare_page #content{border-radius: 10px; background:#fff;padding:1
 div.basketedit_page #content{border-radius: 10px; background:#fff;padding:20px;}
 .--active .progress__icon{background: #f00!important;}
 
+/*lista zakupowa*/
+div.wishesedit_page #content{border-radius: 10px; background:#fff;padding:10px;}
 
 #main_banner1{background:transparent;}
 /*Kropka czerwona bannery*/
