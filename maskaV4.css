@@ -1,13 +1,5 @@
-/*tło strony */
-a:hover{color:#f00!important}
-div.main_page, footer, div.search_page{
-	margin: 0 auto;
-	text-align: left;
-	background: transparent!important;
-}
-/*kolor przycisków : hover*/
-.btn:hover{color:#f00!important;border-bottom-color: #f00!important;}
-
+#content{background: #fff; border-radius: 20px; padding:10px!important;}
+header{background:transparent!important;}
 body{
 	background: #000000;
 	background: -moz-linear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
@@ -18,24 +10,21 @@ body{
 	background: linear-gradient(to right, #000000 0%, #501113 50%, #000000 98%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1);
 }
+
+#main_banner1{background: transparent!important; margin-top: -10px;}
+.product__name{font-size:1.5rem!important;}
+.product__yousave{border-color: #f00!important;}
+.product__yousave span {color:#f00}
+.price.--points{color:#c00!important;}
+
+.btn:hover{color:#f00!important;border-bottom-color: #f00!important;}
+a:hover{color:#f00!important}
+div.main_page, footer, div.search_page{
+	margin: 0 auto;
+	text-align: left;
+	background: transparent!important;
+}
 div.list_wrapper ol li * {color:#ddd}
-
-/*strona z listą towarów*/
-div.search_page #content{border-radius: 10px; background:#fff;}
-/*strona karta towaru*/
-div.projector_page #content{border-radius: 10px; background:#fff;padding:10px;}
-/*powrót */
-div.return_page #content{border-radius: 10px; background:#fff;padding:10px;}
-/*porównywarka*/
-div.product-compare_page #content{border-radius: 10px; background:#fff;padding:10px;}
-/*koszyk*/
-div.basketedit_page #content{border-radius: 10px; background:#fff;padding:20px;}
-.--active .progress__icon{background: #f00!important;}
-
-/*lista zakupowa*/
-div.wishesedit_page #content{border-radius: 10px; background:#fff;padding:10px;}
-
-#main_banner1{background:transparent;}
 /*Kropka czerwona bannery*/
 .slick-dots li.slick-active button {
 	background: #c00;
@@ -59,29 +48,6 @@ i.icon-search{color:white!important} /*lupka*/
 i.icon-search:hover{color:red!important}
 #menu_basket > a:before{color:#fff;} /*ikona koszyk*/
 
-.hotspot .headline{color: #fff!important;}
-.hotspot .headline::after{background:#fff!important;}
-
-div.products.d-flex.flex-wrap{
-    background: #fff;
-    border-radius: 20px;
-    border-color: transparent;
-}
-div section.article{
-    background: #fff;
-    border-radius: 20px;
-    border-color: transparent;
-    padding: 20px;
-    width: 100%;
-}
-/*Produkty*/
-.product__name{font-size:1.5rem!important;}
-.product__yousave{border-color: #f00!important;}
-.product__yousave span {color:#f00}
-.price.--points{color:#c00!important;}
-/*stopka */
-footer{max-width: 1170px!important;}
-#info-banners > li > *{color:#c00!important;}
 #menu_contact, #menu_contact > *{
     background: transparent!important; 
 	
@@ -105,4 +71,48 @@ footer{max-width: 1170px!important;}
     border-color: transparent!important;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+.btn.--secondary.--solid.--large {
+    background: #ff0000;
+    border: 1px solid #ff0000;
+    color: #ffffff;
+}
+.btn.--secondary.--solid.--large:hover{
+    color:#ffffff!important;
+    background: #000000!important;
+    border: 1px solid #000000!important;
+}
+.hotspot__dots li.slick-active:before, .hotspot__dots li:hover:before{
+    background: #ff0000!important;
+}
+.select_button.active, .photos__link.--nav.--active, .photos__link.--nav:hover{
+    border-color: #ff0000!important;
+}
+span.projector_price_yousave, .select_button.active, .css_tip{
+    color: #dd0000!important;
+}
+.select_button:hover{
+    color: #dd0000!important;
+    border-color: #ff0000!important;
+}
+.projector_price_value{
+    color: #ca0101!important;
+}
+.badge-info{
+    background:#ff0000!important;
+}
+.btn.--medium.--solid{
+    background: #ff0000;
+    border:none!important;
+}
+}.btn.--medium.--solid:hover{
+    background: #000000;
+    border:none!important;
+}
+.topBasket__details{
+    background: #802e27!important;
+}
+.topBasket__item{
+    color:#ffffff!important;
+    font-size: 1.3rem!important;
 }

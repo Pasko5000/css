@@ -1,0 +1,192 @@
+.badge-info {
+  background-color: #f00;
+}
+.bestseller,
+.label.--bestseller {
+  background: #f00;
+}
+.form-group .form-control:focus + .control-label {
+  color: #f00;
+}
+.form-control:focus {
+  border-color: #f00;
+}
+.input-group-addon {
+  color: #f00;
+}
+.has-success .help-block a:hover,
+.has-success .control-label a:hover,
+.has-success .radio a:hover,
+.has-success .checkbox a:hover,
+.has-success .radio-inline a:hover,
+.has-success .checkbox-inline a:hover,
+.has-success.radio label a:hover,
+.has-success.checkbox label a:hover,
+.has-success.radio-inline label a:hover,
+.has-success.checkbox-inline label a:hover {
+  color: #f00;
+}
+.has-warning .help-block a:hover,
+.has-warning .control-label a:hover,
+.has-warning .radio a:hover,
+.has-warning .checkbox a:hover,
+.has-warning .radio-inline a:hover,
+.has-warning .checkbox-inline a:hover,
+.has-warning.radio label a:hover,
+.has-warning.checkbox label a:hover,
+.has-warning.radio-inline label a:hover,
+.has-warning.checkbox-inline label a:hover {
+  color: #f00;
+}
+.product__name:hover {
+  color: #f00;
+}
+.product__yousave:not(.--label):not(.--value) {
+  color: #f00;
+  border: 2px solid #f00;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-color: #f00;
+}
+#ck_dsclr {
+  background: #f00 !important;
+  border-top: 1px solid #f00 !important;
+}
+#ck_dsclr #ckdsclmrshtdwn {
+  color: #f00 !important;
+}
+#ck_dsclr #ckdsclmrshtdwn:hover {
+  background: #f00 !important;
+}
+#iai-accounts_toplayer p a {
+  color: #f00 !important;
+}
+.iai-accounts_alter_button {
+  color: #f00 !important;
+}
+.table-stroke-row-sum {
+  color: #f00;
+}
+.mobile_sidebar .menu_box h2,
+.mobile_sidebar .menu_box_label {
+  border-bottom: 1px solid #f00;
+}
+#menu_settings .open_trigger i {
+  color: #f00;
+}
+@media (min-width: 979px) {
+  #menu_settings .open_trigger:hover .menu_settings_language,
+  #menu_settings .open_trigger:hover .menu_settings_currency {
+    color: #f00;
+  }
+}
+.search_open #menu_search label {
+  color: #f00;
+}
+#login_menu > div > div h3 span strong {
+  color: #f00;
+}
+#login_menu div.login_point_count strong {
+  color: #f00;
+}
+.client-barcode > div > span > span {
+  color: #f00;
+}
+@media (min-width: 979px) {
+  .opinions_shop__sort:hover .opinions_shop__sort_star {
+    color: #f00;
+  }
+  .opinions_shop__sort:hover .opinions_shop__bar_active {
+    background: #f00;
+  }
+}
+.opinions_shop__sort.--active .opinions_shop__sort_star {
+  color: #f00;
+}
+.opinions_shop__sort.--active .opinions_shop__bar_active {
+  background: #f00;
+}
+.orderdetails_info__icon[data-status='o'] {
+  background: #f00;
+}
+.orderdetails_info__icon[data-status='a'] {
+  background: #f00;
+}
+#orderdetails_prepaid_methods tr.activ td {
+  background: #f00;
+}
+#prepaid_address .prepaid_stock_contact_item a {
+  background: none;
+  color: #f00;
+}
+.n54116_item a {
+  color: #f00;
+}
+.actions_return_rma > div > div div img {
+  background: #f00;
+}
+.actions_return_rma > div > div div img {
+  background: #f00;
+}
+#product_compare_list_wrapper .navigation .next {
+  border-left: 3px solid #f00;
+}
+#projector_instalment_wrapper {
+  color: #f00;
+}
+#projector_instalment_wrapper a {
+  color: #f00 !important;
+}
+div.product_section.sizes .alert:before {
+  color: #f00;
+}
+.select_button:hover {
+  border-color: #f00;
+}
+.select_button.active {
+  border-color: #f00;
+  color: #f00;
+}
+.css_tip {
+  color: #f00;
+}
+.shipping_time_popup span {
+  color: #f00;
+}
+#projector_bundle_product .product-name:hover {
+  color: #f00;
+}
+.dictionary .showTip {
+  color: #f00;
+}
+.important {
+  color: #f00;
+}
+div.rma_list_tab {
+  background: #f00;
+  border: 1px solid #f00;
+}
+@media (min-width: 979px) {
+  div.rma_list_tab {
+    color: #f00;
+  }
+}
+#basketedit_productslist .addWrapper i {
+  box-shadow: none;
+  color: #f00;
+}
+#basketedit_productslist a.n68242_instalment_button i {
+  box-shadow: none;
+  color: #f00;
+}
+#search .product__compare_item.--remove:hover {
+  color: #f00;
+  border-bottom-color: #f00;
+}
+#client_new_social .service_item,
+#cookie_login_social_more .service_item {
+  border-color: #f00;
+  color: #f00;
+}
