@@ -1,5 +1,8 @@
 #content{background: #fff; border-radius: 20px; padding:10px!important;}
-header{background:transparent!important;}
+header{
+    background:transparent!important;
+    border: none!important;
+}
 body{
 	background: #000000;
 	background: -moz-linear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
@@ -9,6 +12,7 @@ body{
 	background: -ms-linear-gradient(left, #000000 0%, #501113 50%, #000000 98%);
 	background: linear-gradient(to right, #000000 0%, #501113 50%, #000000 98%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1);
+    padding-top: 0!important;
 }
 
 #main_banner1{background: transparent!important; margin-top: -10px;}
@@ -33,8 +37,25 @@ div.list_wrapper ol li * {color:#ddd}
 div.main_page header{position: relative!important;}
 
 /*linki menu*/
-.navbar-nav > .nav-item > .nav-link{color:#ffffff!important;}
+a.nav-link {
+    @media(min-width: 979px){
+        color: #ffffff!important;
+    }
+}
+@media(min-width: 979px){ 
+    a.nav-link {
+        color: #ffffff!important;
+    }
+}
+header .nav-link.active {
+    color: #ff0000;
+}
 .navbar-nav > .nav-item > .nav-link:hover{color:#ff0000!important;}
+
+/*menu mobilne */
+header .navbar-toggler{
+    color: #ffffff;
+}
 
 /*Menu górne koszyk ustawienia itp*/
 header span {color: #eeeeee!important;}
@@ -43,7 +64,13 @@ header span {color: #eeeeee!important;}
 
 /*wyszukiwarka tekstowa*/
 #menu_search_text {color:#ccc!important; border-color: #ccc!important;}
-#menu_search_text:focus {color:#fff!important; border-color: #fff!important;}
+#menu_search_text:focus {
+    @media(min-width: 757px){
+        color:#fff!important;
+    }
+    border-color: #fff!important;
+    
+}
 i.icon-search{color:white!important} /*lupka*/
 i.icon-search:hover{color:red!important}
 #menu_basket > a:before{color:#fff;} /*ikona koszyk*/
@@ -56,21 +83,14 @@ i.icon-search:hover{color:red!important}
 #menu_contact > ul > li{color:#fff!important;}
 #menu_contact::before{background:transparent}
 
-#menu_orders{
+#footer_links{
+    margin-top: 20px;
+    width: 100%;
     background:#fff;
-    border-color: transparent!important;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px;
 }
-#menu_regulations, #menu_account{
-    background:#fff;
-    border-color: transparent!important;
-}
-#links_footer_1{
-    background:#fff;
-    border-color: transparent!important;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+#footer_links > *{
+    border: none!important;
 }
 .btn.--secondary.--solid.--large {
     background: #ff0000;
@@ -110,9 +130,40 @@ span.projector_price_yousave, .select_button.active, .css_tip{
     border:none!important;
 }
 .topBasket__details{
-    background: #802e27!important;
+    background: #352b2a!important;
+    border-radius: 10px!important;
 }
 .topBasket__item{
     color:#ffffff!important;
     font-size: 1.3rem!important;
+}
+/*koszyk proces zakupowy*/
+.progress__item.--active .progress__icon {
+    background: #ff0000!important;
+}
+.basketedit_total_summary strong{
+    color:#dd0000;
+}
+.btn.--large.--solid{
+    background: #ff0000!important;
+    border:none!important;
+    color:#ffffff!important;
+}
+.btn.--large.--solid:hover{
+    background: #000000!important;
+}
+.btn.--medium.--solid:hover{
+    background: #000000!important;
+    color: #ffffff!important;
+}
+.btn.--secondary.--solid.--medium:hover {
+    background: #000000!important;
+    border: none!important;
+    color: #ffffff;
+}
+.rebate_card_wrap {
+    display: none;   
+}
+.order_process header{
+    border: none!important;
 }
