@@ -37,15 +37,11 @@ div.list_wrapper ol li * {color:#ddd}
 div.main_page header{position: relative!important;}
 
 /*linki menu*/
-a.nav-link {
-    @media(min-width: 979px){
-        color: #ffffff!important;
-    }
+.navbar-collapse > ul > li > a {
+    color: #fff;
 }
-@media(min-width: 979px){ 
-    a.nav-link {
-        color: #ffffff!important;
-    }
+.setMobileGrid > .navbar-collapse > ul > li > a {
+    color: #000;
 }
 header .nav-link.active {
     color: #ff0000;
@@ -71,7 +67,11 @@ header span {color: #eeeeee!important;}
     border-color: #fff!important;
     
 }
-i.icon-search{color:white!important} /*lupka*/
+@media(min-width: 757px) {
+    i.icon-search{
+        color:#fff!important;
+    }
+}
 i.icon-search:hover{color:red!important}
 #menu_basket > a:before{color:#fff;} /*ikona koszyk*/
 
@@ -125,7 +125,7 @@ span.projector_price_yousave, .select_button.active, .css_tip{
     background: #ff0000;
     border:none!important;
 }
-.btn.--medium.--solid:hover{
+}.btn.--medium.--solid:hover{
     background: #000000;
     border:none!important;
 }
@@ -166,4 +166,16 @@ span.projector_price_yousave, .select_button.active, .css_tip{
 }
 .order_process header{
     border: none!important;
+}
+/*cookies*/
+#ck_dsclr{
+    background: #333!important;
+    border:none!important;
+}
+#ck_dsclr #ckdsclmrshtdwn{
+    color:#fff!important;
+    background: #111!important;
+}
+#ck_dsclr #ckdsclmrshtdwn:hover{
+    background: #f00!important;
 }
